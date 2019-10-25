@@ -47,7 +47,7 @@ Header
 
 .navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
 {
-	border-bottom: 2px solid #E74C3C;
+	border-bottom: 2px solid #0B615E;
     outline: none;
 }
 .navbar {
@@ -233,67 +233,28 @@ p.cta-sub-title
 {
 	margin-bottom: 40px;
 }
-
-
-
 .fil-btn .active
 {
 	background-color: #e43c5c;
 }
-.img-sec, .fig-caption
+.contacts img
 {
-	width: 50%;
-	float: left;
+    width: 40px;
 }
-.team-info
+.contacts a
 {
-	border: 1px solid rgba(204, 204, 204, 0.33);
-	float: left;
-	width: 100%;
-	border-radius: 3px;
+    font-size: 1.5em;
+    color: #fff;
 }
-.fig-caption
+.client
 {
-	padding: 56px 20px 0px;
+     text-align: center;
+     margin-bottom: 4em;
 }
-.fig-caption h3
+
+.client img
 {
-	font-size: 20px;
-	font-family: 'Josefin Slab', serif;
-}
-.fig-caption p
-{
-	font-size: 14px;
-}
-.team-social li
-{
-	display: inline-block;
-}
-.team-social li
-{
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	text-align: center;
-}
-.team-social li a
-{
-	color: #fff;
-}
-.blue-light{
-	background-color: #3498DB;
-}
-.blue-dark
-{
-	background-color: #2C3E50;
-}
-.red
-{
-	background-color: #E74C3C;
-}
-.marb-20
-{
-	margin-bottom: 20px;
+    width: 50%;
 }
 .wd75
 {
@@ -524,7 +485,7 @@ margin-top: 5px;
 }
 #banner
 {
-    background: url('../img/banner-bg.jpg') no-repeat;
+    background: url('../img/banner-bg.png') no-repeat;
     background-size: cover;
     min-height: 500px;
 }
@@ -545,6 +506,25 @@ cta
 }
 .fig-caption {
     padding: 56px 20px 20px;
+}
+#portfolio .portfolio-item {
+  position: relative;
+  height: 300px;
+  overflow: hidden !important;
+  margin-bottom: 15px;
+  transition: all 350ms ease;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+#portfolio .portfolio-item .details {
+  height: 50px;
+  background: #0B615E; /* azul */
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: 0px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 }
 @media (min-width: 451px) and (max-width: 768px) {
